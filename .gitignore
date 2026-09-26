@@ -1,0 +1,22 @@
+# Ambiente Virtual
+venv/
+__pycache__/
+*.pyc
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+.idea/
+
+# Binários pesados (Modelos serializados)
+*.pkl
+
+# Pastas de saída (Ignora conteúdo, preserva estrutura)
+predict_results/*
+!predict_results/.gitkeep
+
+train_saves/*
+!train_saves/.gitkeep
